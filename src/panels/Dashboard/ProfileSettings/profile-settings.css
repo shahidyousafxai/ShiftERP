@@ -1,0 +1,13 @@
+.rounded {
+  border-radius: 6px !important;
+}
+
+.stepper-bg {
+  background-color: #f3f5f7;
+}
+
+.download-icon {
+  border: 1px solid #e8e5e5;
+  padding: 10px;
+  border-radius: 6px !important;
+}

@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overscroll-behavior-y: none;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+img {
+  display: unset !important;
+}
+
+.logo-wrapper {
+  text-align: center;
+}
+
+.logo-wrapper img {
+  width: 120px;
+}
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 14px !important;
+}
+
+.css-o7vo1z.Layout-root {
+  overflow-x: clip !important;
+}
+#inputDate {
+  padding: 9.5px 14px;
+}
+
+/* Smart Schedule Custom CSS */
+.Root-root {
+  display: flex;
+  margin-left: 10px !important;
+  gap: 5px;
+}
+.css-1b7ni76-MuiToolbar-root.Toolbar-toolbar {
+  padding-right: 0px !important;
+  padding-left: 20px !important;
+}
+.table > :not(caption) > * > * {
+  border-bottom-width: 0px !important;
+}
+
+/* Appointment ToolTip Component*/
+.css-1fklddj-MuiModal-root-MuiPopover-root .Layout-popover {
+  width: max-content !important;
+  background-color: #383838 !important;
+}
+
+#custom-tooltip .rs-popover-arrow:after {
+  border-bottom-color: #383838 !important;
+  margin-left: -18px !important;
+}
+
+#custom-tooltip-sun .rs-popover-arrow:after {
+  border-bottom-color: #383838 !important;
+  margin-left: 10px !important;
+}
+
+#custom-tooltip-appointment .rs-popover-arrow:after {
+  border-bottom-color: #383838 !important;
+  border-top-color: #383838 !important;
+  margin-left: -10px !important;
+}
+#custom-tooltip-appointment {
+  z-index: 9999 !important;
+}
+/* .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  border: 2px solid #3362da !important;
+  border-radius: 5px;
+} */

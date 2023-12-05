@@ -1,0 +1,11 @@
+.login-container {
+  height: 100vh;
+}
+/*
+.login-container img {
+  width: 200px;
+} */
+
+.pointer {
+  cursor: pointer;
+}

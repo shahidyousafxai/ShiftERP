@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  font-family: "SF UI Text", "SF UI Display";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 98.5vw;
+}
+#root {
+  scrollbar-color: #f1f1f1;
+  scrollbar-width: thin;
+}
+#root:-webkit-scrollbar {
+  width: 5px;
+}
+#root:-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+#root:-webkit-scrollbar-thumb {
+  background: rgba(194, 189, 189, 0.5);
+}
+* {
+  scrollbar-color: #f1f1f1 rgba(194, 189, 189, 0.5);
+  scrollbar-width: thin;
+
+  scrollbar-track-color: #f1f1f1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(194, 189, 189, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(194, 189, 189, 1);
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+.mention {
+  color: #007bff;
+}
+
+.comment-list ol li {
+  list-style: auto !important;
+}
+
+.comment-list ul li {
+  list-style: disc !important;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-LightItalic.eot");
+  src: local("SF UI Text LightItalic"), local("SFUIText-LightItalic"),
+    url("./assets/realfonts/SFUIText-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-LightItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-LightItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Regular.eot");
+  src: local("SF UI Display Regular"), local("SFUIDisplay-Regular"),
+    url("./assets/realfonts/SFUIDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Regular.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Regular.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-RegularItalic.eot");
+  src: local("SF UI Text Regular Italic"), local("SFUIText-RegularItalic"),
+    url("./assets/realfonts/SFUIText-RegularItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-RegularItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-RegularItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-RegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Ultralight.eot");
+  src: local("SF UI Display Ultralight"), local("SFUIDisplay-Ultralight"),
+    url("./assets/realfonts/SFUIDisplay-Ultralight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Ultralight.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Ultralight.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-SemiboldItalic.eot");
+  src: local("SF UI Text SemiboldItalic"), local("SFUIText-SemiboldItalic"),
+    url("./assets/realfonts/SFUIText-SemiboldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-SemiboldItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-SemiboldItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Heavy.eot");
+  src: local("SF UI Display Heavy"), local("SFUIDisplay-Heavy"),
+    url("./assets/realfonts/SFUIDisplay-Heavy.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Heavy.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Heavy.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Heavy.eot");
+  src: local("SF UI Text Heavy"), local("SFUIText-Heavy"),
+    url("./assets/realfonts/SFUIText-Heavy.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Heavy.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Heavy.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Black.eot");
+  src: local("SF UI Display Black"), local("SFUIDisplay-Black"),
+    url("./assets/realfonts/SFUIDisplay-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Black.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Black.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Semibold.eot");
+  src: local("SF UI Text Semibold"), local("SFUIText-Semibold"),
+    url("./assets/realfonts/SFUIText-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Semibold.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Semibold.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Semibold.eot");
+  src: local("SF UI Display Semibold"), local("SFUIDisplay-Semibold"),
+    url("./assets/realfonts/SFUIDisplay-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Semibold.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Semibold.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Medium.eot");
+  src: local("SF UI Text Medium"), local("SFUIText-Medium"),
+    url("./assets/realfonts/SFUIText-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Medium.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Medium.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Light.eot");
+  src: local("SF UI Text Light"), local("SFUIText-Light"),
+    url("./assets/realfonts/SFUIText-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Light.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Light.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Bold.eot");
+  src: local("SF UI Display Bold"), local("SFUIDisplay-Bold"),
+    url("./assets/realfonts/SFUIDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Bold.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Bold.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Regular.eot");
+  src: local("SF UI Text Regular"), local("SFUIText-Regular"),
+    url("./assets/realfonts/SFUIText-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Regular.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Regular.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Thin.eot");
+  src: local("SF UI Display Thin"), local("SFUIDisplay-Thin"),
+    url("./assets/realfonts/SFUIDisplay-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Thin.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Thin.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-BoldItalic.eot");
+  src: local("SF UI Text BoldItalic"), local("SFUIText-BoldItalic"),
+    url("./assets/realfonts/SFUIText-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-BoldItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-BoldItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-Bold.eot");
+  src: local("SF UI Text Bold"), local("SFUIText-Bold"),
+    url("./assets/realfonts/SFUIText-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-Bold.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-Bold.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Medium.eot");
+  src: local("SF UI Display Medium"), local("SFUIDisplay-Medium"),
+    url("./assets/realfonts/SFUIDisplay-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Medium.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Medium.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-HeavyItalic.eot");
+  src: local("SF UI Text HeavyItalic"), local("SFUIText-HeavyItalic"),
+    url("./assets/realfonts/SFUIText-HeavyItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-HeavyItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-HeavyItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  src: url("./assets/realfonts/SFUIDisplay-Light.eot");
+  src: local("SF UI Display Light"), local("SFUIDisplay-Light"),
+    url("./assets/realfonts/SFUIDisplay-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIDisplay-Light.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIDisplay-Light.woff") format("woff"),
+    url("./assets/realfonts/SFUIDisplay-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF UI Text";
+  src: url("./assets/realfonts/SFUIText-MediumItalic.eot");
+  src: local("SF UI Text MediumItalic"), local("SFUIText-MediumItalic"),
+    url("./assets/realfonts/SFUIText-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/realfonts/SFUIText-MediumItalic.woff2") format("woff2"),
+    url("./assets/realfonts/SFUIText-MediumItalic.woff") format("woff"),
+    url("./assets/realfonts/SFUIText-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}

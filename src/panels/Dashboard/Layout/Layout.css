@@ -1,0 +1,44 @@
+.active {
+  background-color: rgba(51, 98, 217, 0.1) !important;
+  border-radius: 5px !important;
+}
+.text-blue {
+  color: blue !important;
+}
+
+.padding-y-0 {
+  padding: 0 !important;
+}
+
+.logo-wrapper-drawer {
+  text-align: left;
+}
+
+.logo-wrapper-drawer img {
+  width: 120px;
+}
+
+.icon-wrapper-drawer img {
+  width: 40px;
+  margin-left: 13px;
+}
+
+.profile-container {
+  margin-top: 100px;
+  bottom: 0;
+}
+
+.MuiListItemButton-root:hover {
+  /* background-color: red !important; */
+  border-radius: 5px !important;
+}
+
+.breadcrumbs-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.MuiBox-root {
+  /* width: 101.9% !important; */
+  /* background-color: #fff; */
+}

@@ -1,0 +1,30 @@
+.rounded-left-corners {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table-head > th:nth-child(1){
+    border-top-left-radius: 10px;
+}
+
+.table-head th:last-child{
+    border-top-right-radius: 10px;
+}
+
+.table-body-h {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.table-row-h:first-child{
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table-head {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #F4F5F7;
+}

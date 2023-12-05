@@ -1,0 +1,191 @@
+.ql-tooltip,
+.ql-editing {
+  left: 0px !important;
+}
+.comment .mantine-10021no .ql-blank::before {
+  height: 70px;
+  cursor: text;
+  /* background-color: #0062cc; */
+}
+/* inside text editor height fix */
+.comment .ql-editor {
+  max-height: 70px !important;
+  margin-left: 5px !important;
+  width: 99.4% !important;
+}
+
+.mantine-10021no .ql-tooltip input {
+  margin-right: 0%;
+}
+
+.mantine-10021no .ql-action::before {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+.mantine-10021no ul {
+  list-style: disc;
+  padding-left: 1.2rem !important;
+}
+.mantine-10021no ol {
+  list-style: decimal;
+  padding-left: 1.2rem !important;
+}
+
+.rounded-lg {
+  border-radius: 8px !important;
+}
+
+.mantine-UnstyledButton-root {
+  border: none !important;
+}
+
+/* Styles Starts of Bold and Italic, link, list, underline */
+.commet .mantine-RichTextEditor-toolbarInner .ql-bold {
+  color: #a5a8af !important;
+  border: none !important;
+}
+
+.comment .mantine-RichTextEditor-toolbarInner .ql-italic {
+  color: #a5a8af !important;
+  border: none !important;
+}
+
+.comment .mantine-RichTextEditor-toolbarInner .ql-link {
+  color: #a5a8af !important;
+  border: none !important;
+}
+
+.comment .mantine-RichTextEditor-toolbarInner .ql-list {
+  color: #a5a8af !important;
+  border: none !important;
+}
+
+.comment .mantine-RichTextEditor-toolbarInner .ql-underline {
+  color: #a5a8af !important;
+  border: none !important;
+}
+
+/* mention list */
+.comment .mantine-10021no .ql-mention-list-container {
+  height: 116px;
+  overflow-y: auto;
+}
+
+/* Styles End of Bold and Italic, link, list, underline  */
+
+/* styles for placeholder */
+.e-richtexteditor .e-rte-placeholder {
+  color: #a5a8af;
+  left: 12px !important;
+  right: 0px !important;
+}
+.mantine-ojyz68:last-of-type {
+  border-radius: 0px !important;
+}
+
+.mantine-1trnr0j {
+  max-height: 30px !important;
+}
+
+/* IDAR TANG KR RAHA HAI */
+.comment .mantine-12mwy1v {
+  background-color: #f4f5f7;
+  margin: 5px;
+  position: static;
+  border-bottom: none;
+  /* border: 1px solid #ced4da !important; */
+  border-radius: 4px !important;
+}
+
+.comment .mantine-RichTextEditor-root {
+  height: 8rem !important;
+  /* background-color: #0062cc !important; */
+  /* border: 2.5px solid #ededef !important; */
+  border: none;
+  /* border-radius: 8px !important; */
+}
+
+.mantine-1trnr0j {
+  height: 40px !important;
+  /* padding: auto; */
+}
+/* IDAR TANG KR RAHA HAI */
+
+.ql-editor {
+  padding-top: 5px !important;
+  padding-left: 10px !important;
+  /* height: 0px !important; */
+  /* max-height: 70px !important; */
+}
+/* IDAR TANG KR RAHA HAI */
+
+.mantine-10021no p {
+  margin-bottom: 2px !important;
+}
+
+.mantine-10021no ol,
+.mantine-10021no ul {
+  margin-top: 2px !important;
+}
+
+/* for time and date input */
+.css-1anqmj6-MuiPopper-root-MuiPickersPopper-root {
+  margin-left: -24px !important;
+}
+
+.comment .mantine-RichTextEditor-root {
+  border-radius: 5px;
+}
+
+/* choose file styles */
+
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.file-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0062cc;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.file-label:hover {
+  background-color: #0062cc;
+}
+
+.file-label:active {
+  transform: scale(0.98);
+}
+
+.file-label span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Hide the file input element */
+input[type="file"] {
+  position: absolute;
+  left: -9999px;
+}
+
+/* width */
+/* section::-webkit-scrollbar {
+  width: 0 !important;
+} */
+
+.ql-editor {
+  width: 100%;
+  overflow: auto;
+  border-radius: 8px;
+}
